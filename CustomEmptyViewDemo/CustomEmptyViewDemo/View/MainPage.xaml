@@ -66,7 +66,7 @@
                        ItemSize="56">
 
                 <syncfusion:SfListView.EmptyView>
-                    <StackLayout VerticalOptions="CenterAndExpand" >
+                    <StackLayout VerticalOptions="CenterAndExpand">
                         <Label Text="&#xe725;" FontSize="40" TextColor="#666666" Opacity="0.8"
                                FontFamily="{OnPlatform iOS=ListViewFontIcons, MacCatalyst=ListViewFontIcons, Android=ListViewFontIcons.ttf#, UWP=ListViewFontIcons.ttf#ListViewFontIcons}"
                                HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />

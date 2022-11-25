@@ -36,8 +36,7 @@ namespace CustomEmptyViewDemo
         protected override void OnAttachedTo(ContentPage bindable)
         {
             ListView = bindable.FindByName<Syncfusion.Maui.ListView.SfListView>("listView");
-            sortingFilteringViewModel = new SortingFilteringViewModel();
-            ListView.BindingContext = sortingFilteringViewModel;
+            sortingFilteringViewModel = bindable.FindByName<SortingFilteringViewModel>("viewModel");         
             ListView.ItemsSource = sortingFilteringViewModel.Items;
 
             headerGrid = bindable.FindByName<Grid>("headerGrid");
