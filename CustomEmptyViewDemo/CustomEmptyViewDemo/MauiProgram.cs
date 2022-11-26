@@ -13,9 +13,9 @@ namespace CustomEmptyViewDemo
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("Roboto-Medium.ttf", "Roboto-Medium");
-                    fonts.AddFont("Roboto-Regular.ttf", "Roboto-Regular");
-                });
+					fonts.AddFont("Roboto-Medium.ttf", "Roboto-Medium");
+					fonts.AddFont("Roboto-Regular.ttf", "Roboto-Regular");
+				});
 			builder.ConfigureSyncfusionCore();
 
 			return builder.Build();
