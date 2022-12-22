@@ -78,12 +78,9 @@
 	  <None Remove="Resources\Images\telephone.png" />
 	  <None Remove="Resources\Images\watchimage.png" />
 	</ItemGroup>
-	
+
 	<ItemGroup>
-		<PackageReference Include="Syncfusion.Maui.Core" Version="*" />
-		<PackageReference Include="Syncfusion.Maui.DataSource" Version="*" />
-		<PackageReference Include="Syncfusion.Maui.GridCommon" Version="*" />
-		<PackageReference Include="Syncfusion.Maui.ListView" Version="*" />
+	  <PackageReference Include="Syncfusion.Maui.ListView" Version="*" />
 	</ItemGroup>
 
 </Project>
